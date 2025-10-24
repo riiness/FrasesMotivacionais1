@@ -52,18 +52,18 @@
         />
 
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/text_view_nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/cabeçalho"
-        android:text="Olá, Mariane!"
+        android:text="Olá, Mariane e luísa!"
         android:textSize="20sp"
         android:layout_marginTop="22dp"
         android:layout_centerHorizontal="true"
         />
 
     <TextView
-        android:id="@+id/textFra"
+        android:id="@+id/text_view_frase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Riscos devem ser corridos, porque o maior perigo é não arriscar nada!"
@@ -71,7 +71,7 @@
         android:textSize="20dp"
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/text1"
+        android:layout_below="@+id/text_view_nome"
         android:layout_marginTop="223dp"
         android:textStyle="bold"
         />
@@ -87,17 +87,16 @@
 
     <Button
         android:id="@+id/botao"
-        android:layout_below="@+id/enfeite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60pt"
-        android:layout_marginTop="75pt"
-        android:text="NOVA FRASE"
-        android:backgroundTint="#5F0E2E"
-        app:corner_radius="1pt"
+        android:layout_below="@+id/enfeite"
         android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60pt"
+        android:layout_marginTop="175dp"
         android:layout_marginBottom="32dp"
-        />
+        android:backgroundTint="#5F0E2E"
+        android:text="NOVA FRASE"
+        app:corner_radius="1pt" />
 
     <View
         android:id = "@+id/rodapé"
